@@ -1,0 +1,59 @@
+Spring Boot
+https://www.geeksforgeeks.org/how-to-run-your-first-spring-boot-application-in-eclipse-ide/
+
+CREATE TABLE members ( id int, name varchar(256) , 
+email varchar(256),  phoneno varchar(256) ) ;
+
+	private String name;
+	private String email;
+	private String phoneNumber;
+	
+	
+	
+INSERT INTO members
+VALUES (  1, 'Ajay', "akm@gmail.com", "9253393898" );
+
+INSERT INTO members
+VALUES (  2, 'Joe', "joe@gmail.com", "9253393899" );
+
+
+  	<dependency>
+  		<groupId>org.hibernate</groupId>
+  		<artifactId>hibernate-core</artifactId>
+  		<version>4.3.5.Final</version>
+  	</dependency>
+        <dependency>
+        	<groupId>mysql</groupId>
+        	<artifactId>mysql-connector-java</artifactId>
+        	<version>5.1.5</version>
+        	<!-- 5.0.5 -->
+        </dependency>
+
+MemberRepository
+List<Member> findAllOrderedByName()
+
+
+http://localhost:8080/rest/members/hello
+http://localhost:8080/rest/members/listallmembers
+http://localhost:8080/rest/members/id:2
+
+
+	private Long id;
+	private String name;
+	private String email;
+	private String phoneNumber;
+	
+Spring error handling 
+mongo db
+
+     <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-compiler-plugin</artifactId>
+         <configuration>
+             <compilerArgs>
+                 <arg>-parameters</arg>
+             </compilerArgs>
+         </configuration>
+     </plugin>
+
+
